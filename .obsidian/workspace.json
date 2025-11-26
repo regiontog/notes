@@ -11,14 +11,14 @@
             "id": "9c6b2bdc517a5dc0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "clis/strace.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "strace"
             }
           }
         ]
@@ -197,6 +197,12 @@
   "active": "9c6b2bdc517a5dc0",
   "lastOpenFiles": [
     "clis/ansible-playbook.md",
+    "clis/strace.md",
+    "clis/nftables.md",
+    "clis/base64.md",
+    "clis/openssl.md",
+    "clis/sealed secrets.md",
+    "clis/ssh.md",
     "TEST PERSONAL.md"
   ]
 }
