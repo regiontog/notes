@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading list.md",
+                "file": "clis/base64.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reading list"
+              "title": "base64"
             }
           }
         ],
@@ -211,14 +211,15 @@
   },
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
-    "clips/WebGPU Timing Performance.md",
+    "clis/ansible-playbook.md",
+    "docs/kubernetes.md",
     "reading list.md",
+    "clips/WebGPU Timing Performance.md",
     "Clippings/WebGPU Timing Performance.md",
     "clips",
     "Clippings",
     "clis/strace.md",
     "Clippings.md",
-    "clis/ansible-playbook.md",
     "clis/nftables.md",
     "clis/base64.md",
     "clis/openssl.md",
