@@ -25,14 +25,14 @@
             "id": "9387f87e7d87d6a0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "docs/kubernetes.md",
-                "mode": "source",
-                "source": false
+                "aFile": "clis/openssl.md",
+                "bFile": "clis/openssl.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "kubernetes"
+              "icon": "diff",
+              "title": "Diff: openssl"
             }
           }
         ],
@@ -211,13 +211,14 @@
   },
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
+    "clis/openssl.md",
+    "docs/kubernetes.md",
     "Clippings/Fix Your Timestep!.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken 1.md",
     "clis/base64.md",
     "Clippings",
     "clis/ansible-playbook.md",
-    "docs/kubernetes.md",
     "reading list.md",
     "Clippings/WebGPU Timing Performance.md",
     "Clippings/WebGPU Timing Performance.md",
@@ -225,7 +226,6 @@
     "clis/strace.md",
     "Clippings.md",
     "clis/nftables.md",
-    "clis/openssl.md",
     "clis/sealed secrets.md",
     "clis/ssh.md",
     "TEST PERSONAL.md"
