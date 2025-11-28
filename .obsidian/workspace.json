@@ -27,12 +27,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "clis/openssl.md",
-                "bFile": "clis/openssl.md",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: openssl"
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -209,19 +209,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9387f87e7d87d6a0",
+  "active": "aa419d60ad928063",
   "lastOpenFiles": [
+    "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
+    "Clippings/WebGPU Timing Performance.md",
+    "Clippings/Fix Your Timestep!.md",
     "clis/openssl.md",
     "docs/kubernetes.md",
-    "Clippings/Fix Your Timestep!.md",
-    "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken 1.md",
     "clis/base64.md",
     "Clippings",
     "clis/ansible-playbook.md",
     "reading list.md",
-    "Clippings/WebGPU Timing Performance.md",
-    "Clippings/WebGPU Timing Performance.md",
     "clips",
     "clis/strace.md",
     "Clippings.md",
