@@ -25,14 +25,14 @@
             "id": "9387f87e7d87d6a0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "reading list.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "reading list"
             }
           }
         ],
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa419d60ad928063",
+  "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
     "Clippings/WebGPU Timing Performance.md",
