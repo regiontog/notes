@@ -1,0 +1,1 @@
+setup claude with obsidian mcp

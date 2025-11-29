@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading list.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reading list"
+              "title": "todo"
             }
           }
         ],
@@ -211,6 +211,11 @@
   },
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
+    "reading list.md",
+    "todo.md",
+    "Miniworks/Goal.md",
+    "Miniworks",
+    "clis/strace.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
     "Clippings/WebGPU Timing Performance.md",
     "Clippings/Fix Your Timestep!.md",
@@ -220,9 +225,7 @@
     "clis/base64.md",
     "Clippings",
     "clis/ansible-playbook.md",
-    "reading list.md",
     "clips",
-    "clis/strace.md",
     "Clippings.md",
     "clis/nftables.md",
     "clis/sealed secrets.md",
