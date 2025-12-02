@@ -8,8 +8,8 @@ https://toji.dev/webgpu-best-practices/render-bundles
 
 # Videos
 
-https://www.youtube.com/watch?v=pSHj5UKSylk
-https://www.youtube.com/watch?v=o-xwmTODTUI
-https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh
-https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR
-https://www.youtube.com/watch?v=hG9SzQxaCm8
+- [x] https://www.youtube.com/watch?v=pSHj5UKSylk
+- [ ] https://www.youtube.com/watch?v=o-xwmTODTUI
+- [ ] https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh
+- [ ] https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR
+- [ ] https://www.youtube.com/watch?v=hG9SzQxaCm8
