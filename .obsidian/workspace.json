@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tobuy.md",
+                "file": "clis/git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tobuy"
+              "title": "git"
             }
           }
         ],
@@ -211,8 +211,10 @@
   },
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
-    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
+    "clis/nftables.md",
+    "clis/git.md",
     "tobuy.md",
+    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
     "reading list.md",
     "todo.md",
     "Miniworks/Goal.md",
@@ -229,7 +231,6 @@
     "clis/ansible-playbook.md",
     "clips",
     "Clippings.md",
-    "clis/nftables.md",
     "clis/sealed secrets.md",
     "clis/ssh.md",
     "TEST PERSONAL.md"
