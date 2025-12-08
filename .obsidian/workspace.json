@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Vim Mode  Zed Code Editor Documentation.md",
+                "file": "tobuy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim Mode  Zed Code Editor Documentation"
+              "title": "tobuy"
             }
           }
         ],
@@ -212,7 +212,7 @@
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
     "Clippings/Vim Mode  Zed Code Editor Documentation.md",
-    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
+    "tobuy.md",
     "reading list.md",
     "todo.md",
     "Miniworks/Goal.md",
