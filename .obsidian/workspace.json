@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clis/git.md",
+                "file": "Miniworks/Goal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "Goal"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "9387f87e7d87d6a0",
   "lastOpenFiles": [
-    "clis/nftables.md",
     "clis/git.md",
+    "clis/nftables.md",
     "tobuy.md",
     "Clippings/Vim Mode  Zed Code Editor Documentation.md",
     "reading list.md",
