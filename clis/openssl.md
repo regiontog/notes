@@ -9,3 +9,7 @@ openssl storeutl -noout -text -certs /etc/ssl/certs/ca-certificates.crt
 openssl s_client -showcerts -servername nrk.no -connect nrk.no:443 </dev/null 2>/dev/null | sed -n -e '/BEGIN\ CERTIFICATE/,/END\ CERTIFICATE/ p'
 ```
 
+```bash
+# Create random secret
+openssl rand -hex 24
+```
