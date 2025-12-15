@@ -13,3 +13,4 @@ https://toji.dev/webgpu-best-practices/render-bundles
 - [ ] https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh
 - [ ] https://www.youtube.com/watch?v=Y9U9IE0gVHA&list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR
 - [ ] https://www.youtube.com/watch?v=hG9SzQxaCm8
+- [ ] https://www.youtube.com/@osakaandrew/videos
