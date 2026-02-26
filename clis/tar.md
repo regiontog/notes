@@ -1,3 +1,9 @@
 ```bash
-tar czf name_of_archive_file.tar.gz name_of_directory_to_tar
+# Archive folder
+tar czf archive.tar.gz dir
+```
+
+```bash
+# Untar
+tar xvzf archive.tar.gz
 ```
