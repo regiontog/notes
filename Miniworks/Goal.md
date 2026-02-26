@@ -1,104 +1,10 @@
 
 ECS: https://github.com/NateTheGreatt/bitECS?tab=readme-ov-file
 
-## Phase 2.5: First glTF Integration
-**Duration**: 3-5 days
-**Goal**: Load simple external models (validation & motivation)
-
-### Tasks
-1. **Minimal glTF Loader**
-   - Parse JSON structure
-   - Load binary buffers
-   - Extract accessors for:
-     - Positions
-     - Normals
-     - UVs
-     - Indices
-
-2. **Load Simple Models**
-   - Start with **Box.gltf** (single mesh, single texture)
-   - Then **BoxTextured.gltf**
-   - Then **Duck.gltf** (more complex geometry)
-
-3. **Hybrid Rendering**
-   ```typescript
-   const SCENE = [
-     ...PROCEDURAL_ENTITIES,  // Your cubes for quick iteration
-     ...GLTF_ENTITIES,        // Loaded models for validation
-   ];
-   ```
-
-### Validation
-- ✅ Box.gltf renders with correct proportions
-- ✅ Textures load and display correctly
-- ✅ Can toggle between procedural and glTF models
-
-### Why Now?
-- You have everything needed for basic models
-- Early validation prevents architectural issues
-- Keeps you motivated with real assets
-- Still keep procedural geometry for fast shader iteration
-
----
 
 ## Phase 3: PBR Materials
 **Duration**: 2-3 weeks
 **Goal**: Physically-based rendering with metallic-roughness workflow
-
-### Tasks
-1. **Extended Material Format**
-   ```typescript
-   interface PBRMaterial {
-     baseColorTexture: GPUTexture;
-     metallicRoughnessTexture: GPUTexture;  // R=unused, G=roughness, B=metallic
-     normalTexture: GPUTexture;
-     occlusionTexture?: GPUTexture;
-     emissiveTexture?: GPUTexture;
-
-     baseColorFactor: [number, number, number, number];
-     metallicFactor: number;
-     roughnessFactor: number;
-     emissiveFactor: [number, number, number];
-   }
-   ```
-
-2. **Tangent Space Normals**
-   - Add tangent + bitangent to vertex format
-   - Calculate TBN matrix in vertex shader
-   - Sample normal map and transform to world space
-
-3. **Cook-Torrance BRDF**
-   Implement in fragment shader:
-   - **Diffuse**: Lambert or Disney diffuse
-   - **Normal Distribution**: GGX (Trowbridge-Reitz)
-   - **Geometry**: Smith's Schlick-GGX
-   - **Fresnel**: Schlick approximation
-   - Combine based on metallic value
-
-   ```wgsl
-   fn distributionGGX(NdotH: f32, roughness: f32) -> f32 {
-       let a = roughness * roughness;
-       let a2 = a * a;
-       let denom = NdotH * NdotH * (a2 - 1.0) + 1.0;
-       return a2 / (PI * denom * denom);
-   }
-
-   fn geometrySchlickGGX(NdotV: f32, roughness: f32) -> f32 {
-       let r = roughness + 1.0;
-       let k = (r * r) / 8.0;
-       return NdotV / (NdotV * (1.0 - k) + k);
-   }
-
-   fn geometrySmith(NdotV: f32, NdotL: f32, roughness: f32) -> f32 {
-       let ggx1 = geometrySchlickGGX(NdotV, roughness);
-       let ggx2 = geometrySchlickGGX(NdotL, roughness);
-       return ggx1 * ggx2;
-   }
-
-   fn fresnelSchlick(cosTheta: f32, F0: vec3<f32>) -> vec3<f32> {
-       return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);
-   }
-   ```
 
 4. **Tone Mapping**
    - Add simple Reinhard or ACES tone mapping
@@ -117,25 +23,7 @@ ECS: https://github.com/NateTheGreatt/bitECS?tab=readme-ov-file
 **Goal**: Multiple lights and environment lighting
 
 ### Tasks
-1. **Multiple Light Types**
-   ```typescript
-   interface Light {
-     type: 'directional' | 'point' | 'spot';
-     position: vec3;
-     direction: vec3;
-     color: vec3;
-     intensity: number;
-     range?: number;        // for point/spot
-     innerConeAngle?: number;  // for spot
-     outerConeAngle?: number;  // for spot
-   }
-   ```
-   - Store lights in storage buffer array
-   - Loop through lights in fragment shader
-   - Handle attenuation for point/spot lights
-
 2. **Image-Based Lighting (IBL)**
-   - Load environment map (cubemap)
    - Precompute offline:
      - Diffuse irradiance map
      - Specular prefiltered environment map (multiple roughness levels)
