@@ -1,5 +1,8 @@
 # Articles
 https://ciechanow.ski/lights-and-shadows/
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices
+https://toji.dev/webgpu-gltf-case-study/
+https://toji.dev/webgpu-best-practices/
 https://all-things-andy-gavin.com/video-games/making-crash/
 https://www.joshwcomeau.com/css/subgrid/
 https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/

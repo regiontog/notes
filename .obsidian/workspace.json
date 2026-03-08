@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "new keybinds needed (zed).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "new keybinds needed (zed)"
+            }
+          },
+          {
+            "id": "0c14841089757ca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Miniworks/Goal.md",
                 "mode": "source",
                 "source": false
@@ -34,9 +48,35 @@
               "icon": "lucide-file",
               "title": "Goal"
             }
+          },
+          {
+            "id": "ffa0b58869d91d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miniworks/Reading.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading"
+            }
+          },
+          {
+            "id": "d1ee187366943e4a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,15 +249,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9387f87e7d87d6a0",
+  "active": "aa419d60ad928063",
   "lastOpenFiles": [
-    "clis/git.md",
-    "clis/nftables.md",
-    "tobuy.md",
-    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
+    "new keybinds needed (zed).md~",
+    "clis/tar.md",
+    "clis/journalctl.md",
+    "Clippings/Feil bruk av smerte­stillande kan gi meir hovudverk – Stort problem.md",
+    "Miniworks/Goal.md",
+    "Miniworks/Reading.md",
     "reading list.md",
     "todo.md",
-    "Miniworks/Goal.md",
+    "tobuy.md",
+    "new keybinds needed (zed).md",
+    "clis/git.md",
+    "clis/nftables.md",
+    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
     "Miniworks",
     "clis/strace.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
