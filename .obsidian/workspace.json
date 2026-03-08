@@ -67,12 +67,14 @@
             "id": "d1ee187366943e4a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "reading list.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "reading list"
             }
           }
         ],
@@ -249,36 +251,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa419d60ad928063",
+  "active": "d1ee187366943e4a",
   "lastOpenFiles": [
-    "new keybinds needed (zed).md~",
-    "clis/tar.md",
-    "clis/journalctl.md",
+    "Clippings/WebGPU Timing Performance.md",
+    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
+    "Clippings/Fix Your Timestep!.md",
     "Clippings/Feil bruk av smerte­stillande kan gi meir hovudverk – Stort problem.md",
+    "clis/ansible-playbook.md",
+    "clis/base64.md",
+    "clis/git.md",
+    "clis/journalctl.md",
+    "clis/nftables.md",
+    "clis/openssl.md",
+    "clis/sealed secrets.md",
+    "clis/ssh.md",
+    "clis/strace.md",
+    "clis/tar.md",
+    "new keybinds needed (zed).md~",
     "Miniworks/Goal.md",
     "Miniworks/Reading.md",
     "reading list.md",
     "todo.md",
     "tobuy.md",
     "new keybinds needed (zed).md",
-    "clis/git.md",
-    "clis/nftables.md",
-    "Clippings/Vim Mode  Zed Code Editor Documentation.md",
     "Miniworks",
-    "clis/strace.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken.md",
-    "Clippings/WebGPU Timing Performance.md",
-    "Clippings/Fix Your Timestep!.md",
-    "clis/openssl.md",
     "docs/kubernetes.md",
     "Clippings/Jack Duvall's Blog - All Javascript Keyboard Shortcut Libraries Are Broken 1.md",
-    "clis/base64.md",
     "Clippings",
-    "clis/ansible-playbook.md",
     "clips",
     "Clippings.md",
-    "clis/sealed secrets.md",
-    "clis/ssh.md",
     "TEST PERSONAL.md"
   ]
 }

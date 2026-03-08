@@ -8,6 +8,7 @@ https://www.joshwcomeau.com/css/subgrid/
 https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/
 https://encelo.github.io/trip_through_graphics_pipeline_2011.html
 https://toji.dev/webgpu-best-practices/render-bundles
+https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm
 # Books
 
 # Videos
